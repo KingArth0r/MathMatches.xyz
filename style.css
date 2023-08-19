@@ -40,6 +40,10 @@ h1 {
     background-color: #ff4d4d;
 }
 
+.blue {
+    background-color: aqua;
+}
+
 .round-button:hover {
     background-color: #e63946;
 }
