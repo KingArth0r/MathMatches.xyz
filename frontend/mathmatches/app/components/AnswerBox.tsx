@@ -11,12 +11,12 @@ function AnswerBox() {
     };
 
     return (
-        <div className="flex flex-col p-2 border-solid gap-2 border-red-500">
-            <div className="bg-red-300 p-1">
+        <div className="flex flex-col p-2 border-solid gap-2 border-red-500 w-1/3 h-1/4">
+            <div className="bg-red-300 p-1w-full">
             {latex ? <BlockMath>{latex}</BlockMath> : <BlockMath>{'\\text{Current answer here}'}</BlockMath>}
             </div>
             <textarea
-                className="w-36 h-12"
+                className="w-full"
                 value={latex}
                 onChange={handleInputChange}
                 placeholder="Type LaTeX here"
